@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/x-icon" href="/images/icon.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="icon" type="image/x-icon" href="/images/shortcut-2.png">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/64d58efce2.js" crossorigin="anonymous" ></script>
+    <title>Profile Page</title>
+</head>
+<body>
+    <!-- navbar -->
+    <nav>
+    <div class="nav-left">
+       <a href="index.html"><img src="images/logo.png" class="logo"></a> 
+        <ul>
+            <li><img src="images/notification.png" alt="notification"></li>
+            <li><img src="images/inbox.png" alt="inbox"></li>
+            <li><img src="images/video.png" alt="video"></li>
+        </ul>
+    </div>
+    <div class="nav-right">
+        <div class="search-box">
+            <img src="images/search.png">
+            <input type="text" placeholder="Search">
+        </div>
+        <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+            <img src="images/profile-pic.png">
+        </div>
+         </div>   
+<!-- Settings menu -->
+         <div class="settings-menu">
+            <div id="dark-btn">
+                <span></span>
+            </div>
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>Sayan Datta</p>
+                        <a href="#">See Your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve new design </a>
+                    </div>
+                </div>
+                <hr>
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accessibility<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+             </div>
+            </div>
+            
+</nav>
+  <!-- ----------------------------------------------------------------------------- -->
+   
+ <div class="profile-container">
+    <div class="cover-button">
+        <button ><i class="fa-solid fa-camera"></i>&nbsp; Edit cover photo</button>
+    </div>
+    
+    <img src="images/group2.jpg" class="cover-img" >
+
+
+    <div class="profile-details">
+        <div class="pd-left">
+            <div class="pd-row">
+                <img src="images/profile-pic.png" alt="profile-img" class="pd-images"> 
+                
+                <div>
+                    <h3>Sayan Datta</h3>
+                    <p>120 Friends - 20 mutual</p>
+                    <img src="images/member-1.png" alt="">
+                    <img src="images/member-2.png" alt="">
+                    <img src="images/member-3.png" alt="">
+                    <img src="images/member-4.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="pd-right">
+
+            <button type="button"><img src="images/add-friends.png" >Friends</button>
+            <button type="button"><img src="images/message.png">Message</button>
+            <br>
+            <a href=""><img src="images/more.png" ></a>
+        </div>
+    </div>
+
+ <div class="profile-info">
+         <div class="info-col">
+            <div class="profile-intro">
+                <h3>Intro</h3>
+                <p class="intro-text"> Believe in yourself and you can do unbelievable things.😊</p>
+                <hr>
+                <ul>
+                    <li><img src="images/profile-job.png" alt="">Works at PayPal</li>
+                    <li><img src="images/profile-study.png" alt=""> Studied at B.P.Poddar Institute of Management and Technology</li>
+                    <li><img src="images/profile-study.png" alt=""> Went to Central Calcutta Polytechnic</li>
+                    <li><img src="images/profile-study.png" alt=""> Went to Methodist School</li>
+                    <li><img src="images/profile-home.png" alt=""> Lives in Serampore,West Bengal</li>
+                    <li><img src="images/profile-location.png" alt=""> From Kolkata, West Bengal</li>
+                </ul>
+            </div>
+            <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Photos</h3>
+                    <a href="#">All Photos</a>
+                </div>
+                
+                <div class="photo-box">
+                    <div><img src="images/my1.jpg" alt=""></div>
+                    <div><img src="images/my2.jpg" alt=""></div>
+                    <div><img src="images/my3.jpg" alt=""></div>
+                    <div><img src="images/my4.jpg" alt=""></div>
+                    <div><img src="images/my5.jpg" alt=""></div>
+                    <div><img src="images/my6.jpg" alt=""></div>
+                </div>
+              </div>
+              <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Friends</h3>
+                    <a href="#">All Friends</a>
+                </div>
+                <p>4,256 friends</p>
+                <div class="friends-box">
+                    <div><img src="images/member-1.png" alt=""><p>Joseph N</p></div>
+                    <div><img src="images/member-2.png" alt=""><p>Nathan N</p></div>
+                    <div><img src="images/member-3.png" alt=""><p>George D</p></div>
+                    <div><img src="images/member-4.png" alt=""><p>Francis L</p></div>
+                    <div><img src="images/member-5.png" alt=""><p>Anthony E</p></div>
+                    <div><img src="images/member-6.png" alt=""><p>Mitchael A</p></div>
+                    <div><img src="images/member-7.png" alt=""><p>Edward M</p></div>
+                    <div><img src="images/member-8.png" alt=""><p>Bradon C</p></div>
+                    <div><img src="images/member-9.png" alt=""><p>James Doe</p></div>
+                </div>
+              </div>
+              <div class="profile-intro">
+                <div class="title-box">
+                    <h3>Life Events</h3>
+                    <a href="#">See all</a>
+                </div>
+                
+                <div class="photo-box">
+                    <div><img src="images/life-event1.png" alt=""></div>
+                    <div><img src="images/life-event2.png" alt=""></div>
+                </div>
+              </div>
+         </div>
+
+
+         <div class="post-col">
+
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>Sayan Datta</p>
+                        <small>Public <i class="fa fa-caret-down"></i></small> 
+                    </div>
+                </div>
+    
+                <div class="post-input-container">
+                    <textarea rows="3" placeholder="What's on your mind, Sayan?"></textarea>
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png">Live Video</a>
+                        <a href="#"><img src="images/photo.png">Photo/Video</a>
+                        <a href="#"><img src="images/feeling.png">feeling/Activity </a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Sayan Datta</p>
+                            <span>January 24 2024, 3:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Web development is difficult, only then it is fun to do. You just have to set your standards. 
+                    If it were to be easy, would anyone do it? <br>
+                    <a href="#">#Webdevelopment</a>
+                <a href="#">#web3Side</a> <a href="#">#merndev #PWSkills</a></p>
+                <img src="images/feed-image-1.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/profile-pic.png">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+             </div>
+             <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/debjani.jpg">
+                        <div>
+                            <p>Debjani Rajak</p>
+                            <span>January 28 2024, 7:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Data and data science greatly influence everything we do…
+                    The impact that data has and will have…continues to grow every day....<br>
+                    <a href="#">#datascienceusingpython</a>
+                <a href="#">#web3Side</a> <a href="#">#python #PWSkills</a></p>
+                <img src="images/datascience.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/debjani.jpg">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+            
+             </div>
+             <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-8.png">
+                        <div>
+                            <p> Lisa Carry</p>
+                            <span>January 28 2024, 7:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">AI stands for artificial intelligence, which is the ability of a computer or robot to perform tasks that are usually associated with intelligent beings. AI is a science field that involves building machines that can learn, reason, and act in ways that normally require human intelligence. AI can perform a variety of advanced functions, including: Seeing, Understanding and translating spoken and written language, Analyzing data, and Making recommendations.....<br>
+                    <a href="#">#datascienceusingpython #ai</a>
+                <a href="#">#web3Side</a> <a href="#">#python #PWSkills</a></p>
+                <img src="images/Ai.jpg" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/debjani.jpg">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+    
+             </div>
+             <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/member-9.png">
+                        <div>
+                            <p>Debasish Bose</p>
+                            <span>January 28 2024, 7:40 pm</span>
+                        </div>
+                    </div>
+                    <a href="#"><i class="fa fa-ellipsis-v"></i></a>
+                </div>
+                
+                <p class="post-text">Backend development is the process of creating server-side software for websites and applications. This includes writing code for databases, APIs, architecture, and servers, and ensuring the website performs correctly. Backend developers also manage databases, process user requests, and interact with databases. The code they write allows the database and application to communicate with each other....<br>
+                    <a href="#">#datascienceusingpython</a>
+                <a href="#">#web3Side</a> <a href="#">#python #PWSkills</a></p>
+                <img src="images/backend.png" class="post-img">
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png">120</div>
+                        <div><img src="images/comments.png">45</div>
+                        <div><img src="images/share.png">20</div>
+                    </div>
+                    <div class="post-profile-icon">
+                        <img src="images/debjani.jpg">
+                        <i class="fa fa-caret-down"></i>
+                    </div>
+                </div>
+    
+             </div>
+             <a href="profile.html"><button type="button" class="load-more-btn" >Load More</button></a>
+
+         </div>   
+ </div>
+ </div>
+  <div class="footer">
+    <p>Copyright 2024 - Sayan Datta</p>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/fdb1062cde.js" crossorigin="anonymous"></script>
+</body>
+</html>
